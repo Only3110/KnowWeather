@@ -3,13 +3,23 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
-    <title>Know The Weather</title>
-    <link href="main.css" rel="stylesheet" type="text/css" />
-  </head>
-		<div class="app-wrapp">
-			<input type="text" autocomplete="off" class="search-box" placeholder="City Name">
-		</div>
-  <body>
-    <script src="main.js"></script>
-  </body>
+    <title>Todo List</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+ </head>
+ <body>
+    <h1 class="1">What Your's Todo</h1>
+    <div class="input">
+        <input type="text" class="txt" placeholder="What your todo">
+        <button class="addbtn"><i class='bx bx-plus'></i></button>
+    </div>
+    <div class="container">
+        <div class="item">
+            <input type="text" class="item_input" disabled>
+            <button class="edit_btn"><i class='bx bx-pencil'></i></button>
+            <button class="remove btn"><i class='bx bx-trash-alt'></i></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+ </body>
 </html>
